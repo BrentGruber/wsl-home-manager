@@ -1,6 +1,6 @@
 .PHONY: update
 update:
-	home-manager switch --flake .#bxg426
+	home-manager -b ".bak" switch  --flake .#brent
 
 .PHONY: clean
 clean:
